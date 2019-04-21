@@ -24,8 +24,7 @@ This repository contains the code for scraping the title of my github profile in
 1. #### Install redis if not installed and make sure it is running in port number 6379
     > sudo apt-get install redis
     ##### Check if redis is installed
-    > redis-cli
-    > #redis> ping
+    > $ redis-cli ping
     ##### (should return PONG)
 
 1. ####  Run celery with beat schedule
